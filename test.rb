@@ -9,8 +9,8 @@ puts"What borough would you like to visit? Choose carefully..."
 Borough = gets.chomp
 case Borough
 when "Brooklyn"
+	five_train = gets.chomp
   puts 'You get on the 5 train going towawrds New Lots Avenune. A poor man asks you for a dollar. Do you give him your change or do you ignore him?'
-  five_train = gets.chomp
 when "Bronx"
  	puts 'You get on the 4 train going towards Woodlawn and you see a girl crying. Do you console her or do you ignore her'
 	four_train = gets.chomp
@@ -25,3 +25,5 @@ when "Manhattan"
 else
   puts "You can only travel to one of the 5 boroughs!"
 end
+
+print "What will you do"
