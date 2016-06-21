@@ -21,12 +21,8 @@ puts "You have entered at your own risk"
 	
 if five_boroughs.include?("Bronx") || five_boroughs.include?("bronx")
 	puts "You get on the 4 train going towards Woodlawn and you see a girl crying. Do you console her or do you ignore her"
+else five_boroughs.include?("Queens")
+	puts"Yassss"
 elsif
 	puts "You get on the 5 train going towawrds New Lots Avenune. A poor man asks you for a dollar. Do you give him your change or do you ignore him?"
-	poor_man = gets.chomp
-	puts poor_man
-end 
-
-# if poor_man.include?("ignore")
-# 	puts"The man stabs you"
-# end 
+end
