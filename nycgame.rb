@@ -11,14 +11,10 @@ puts "Welcome, #{first_name}"
 
 puts "What borough would you like to visit? Choose carefully..."
 
-borough = gets.chomp
-cleaned_borough = borough.strip
 
-puts "TESTING"
+borough = gets.chomp.strip
 
-puts ' "#{cleaned_borough}" '
-
-case cleaned_borough
+case borough
 when "Brooklyn", "brooklyn"
   puts 'You get on the 5 train going towawrds New Lots Avenune. A poor man asks you for a dollar. Do you give him your change or do you ignore him?'
 when "Bronx", "bronx", "the bronx", "The Bronx", "the Bronx"
